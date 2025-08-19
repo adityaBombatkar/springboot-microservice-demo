@@ -14,5 +14,10 @@ public class GreetingController {
 	public String greeting() {
 		return "Hello Aditya, how are you?";
 	}
-	
+
+	@GetMapping("/newgreeting")
+	public String greetingNew(){
+		return "Hello Good morning, how are you doing this fine morning!";
+	}
+
 }
