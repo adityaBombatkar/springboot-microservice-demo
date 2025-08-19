@@ -12,7 +12,7 @@ public class GreetingController {
 
 	@GetMapping("/greeting")
 	public String greeting() {
-		return this.greeting;
+		return "Hello Aditya, how are you?";
 	}
 	
 }
